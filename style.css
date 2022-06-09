@@ -1,0 +1,34 @@
+#tabuleiro{
+  width: 600px;
+  height: 600px;
+  border: #95bb4a solid 10px; 
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+body {
+  background-color: #363636;
+}
+
+#tabuleiro div{
+  width: 75px;
+  height: 75px;
+  float: left;
+  font-size: 55px;
+  text-align: center;
+}
+
+
+#m11, #m13, #m15, #m17, #m19, #m22, #m24, #m26, #m28, #m31, #m33, #m35, #m37,#m39, #m42, #m44, #m46, #m48, #m51, #m53, #m55, #m57, #m59, #m62, #m64, #m66, #m68, #m71, #m73, #m75, #m77,#m79, #m82, #m84, #m86, #m88{
+  background-color: #ebebd0;  
+}
+
+#m12, #m14, #m16, #m18, #m21, #m23, #m25, #m27, #m29, #m32, #m34, #m36, #m38, #m41, #m43, #m45, #m47, #m49, #m52, #m54, #m56, #m58, #m61, #m63, #m65, #m67, #m69, #m72, #m74, #m76, #m78, #m81, #m83, #m85, #m87, #m89{
+  background-color: #779455;
+}
+
+div {
+  cursor: pointer;
+}
+
